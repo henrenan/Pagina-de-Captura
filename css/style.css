@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;    
+}
+header{
+    background-color: #48cece;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+
+}
+section{ 
+    padding: 20px;
+    background-image: url('../imagens/people.jpg');
+    background-size: cover;
+    overflow: hidden;
+   
+}
+
+.formcontainer{
+    background-color: #ffffffbb;
+    max-width: 230px;
+    padding: 20px;
+    float: right;
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 17px;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 8px;
+}
+input[type="submit"]{
+    color:white;
+    background-color: #48cece;
+    font-weight: bold;
+
+}
+select{
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    background-image: url('../imagens/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+footer{
+    background-color: #202121;
+    padding: 40px;
+}
+
+.picture{
+    width: 160px;
+}
+.descrition{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+}
+.descrition p, .descrition h3{
+    margin-bottom: 20px;
+}
+.descrition h3{
+    font-size: 24px;
+}
