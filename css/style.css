@@ -68,14 +68,18 @@ footer{
 
 .picture{
     width: 160px;
+    float: left;
 }
 .descrition{
-    display: inline-block;
+    display:inline-table;
     color: white;
     max-width: 40%;
+    padding-left: 20px;
+    
 }
 .descrition p, .descrition h3{
     margin-bottom: 20px;
+    
 }
 .descrition h3{
     font-size: 24px;
